@@ -1,0 +1,21 @@
+#whoiam{
+  margin-top: 54px;
+  /*background-color: indigo;*/
+  /*color: white;*/
+  /*max-height: 400px;*/
+  border: 1px solid indigo;
+}
+#myImage{
+  max-height: 400px;
+}
+#handle{
+  color: indigo;
+  font-weight: bold;
+}
+#username{
+  color: #00897B;
+  font-weight: bold;
+}
+#position{
+  color: #acaeaf;
+}
