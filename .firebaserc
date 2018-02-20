@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "omurbek-jk",
+    "staging": "omurbek-jk"
+  }
+}
