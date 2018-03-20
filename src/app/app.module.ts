@@ -6,7 +6,12 @@ import {SharedModule} from './shared/shared.module';
 import {RouterModule, Routes} from '@angular/router';
 import {NavbarComponent} from './shared/navbar/navbar.component';
 
-const appRoutes: Routes = [];
+const appRoutes: Routes = [
+  { path: '',
+    redirectTo: '/resume',
+    pathMatch: 'full'
+  },
+];
 
 @NgModule({
   declarations: [
