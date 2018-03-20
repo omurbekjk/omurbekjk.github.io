@@ -1,4 +1,17 @@
-import {Routes} from '@angular/router';
+import {RouterModule, Routes} from '@angular/router';
+import {NgModule} from '@angular/core';
 
-const appRoutes: Routes = [];
+const routes: Routes = [
+  {
+    path: '',
+    redirectTo: '/resume',
+    pathMatch: 'full'
+  },
+];
 
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule],
+})
+export class AppRoutingModule {
+}
