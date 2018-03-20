@@ -1,32 +1,29 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { WhoiamComponent } from './whoiam/whoiam.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { SkillsComponent } from './skills/skills.component';
-import { AwardsComponent } from './awards/awards.component';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
-import { FooterComponent } from './footer/footer.component';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {AppComponent} from './app.component';
+import {ResumeModule} from './resume/resume.module';
+import {SharedModule} from './shared/shared.module';
+import {RouterModule, Routes} from '@angular/router';
+import {NavbarComponent} from './shared/navbar/navbar.component';
 
+const appRoutes: Routes = [];
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    WhoiamComponent,
-    PortfolioComponent,
-    SkillsComponent,
-    AwardsComponent,
-    AboutComponent,
-    ContactComponent,
-    FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ResumeModule,
+    SharedModule,
+    RouterModule.forRoot(
+      appRoutes,
+      {enableTracing: true} // <-- debugging purposes only
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
