@@ -1,68 +1,91 @@
 const LEVELS = {
-  Advanced: 'Advanced',
-  UpperIntermediate: 'Upper-Intermediate',
-  Intermediate: 'Intermediate',
-  Beginner: 'Beginner',
+  Advanced: {title: 'Advanced', percentage: '95'},
+  UpperIntermediate: {title: 'Upper-Intermediate', percentage: '85'},
+  Intermediate: {title: 'Intermediate', percentage: '60'},
+  Beginner: {title: 'Beginner', percentage: '30'},
 };
 export const skills = {
-  LanguagesAndFrameworks: {
-    'Java SE': {
+  LanguagesAndFrameworks: [
+    {
+      skill: 'Java',
       level: LEVELS.UpperIntermediate,
       description: 'OOP, Sockets, Jsoup, Swing, Apache POI'
     },
-    'Golang': {
+    {
+      skill: 'Golang',
       level: LEVELS.Beginner,
       description: 'Golang basics, unit testing'
     },
-    'Node': {
+    {
+      skill: 'test',
+      level: LEVELS.Advanced,
+      description: 'Golang basics, unit testing'
+    },
+    {
+      skill: 'Node',
       level: LEVELS.UpperIntermediate,
       description: 'Nodejs, Expres, Mongoose'
     },
-  },
-  FrontEnd: {
-    'JavaScript': {
+    {
+      skill: 'Git',
+      level: LEVELS.UpperIntermediate,
+      description: 'git, github, bitbucket, gitlab'
+    },
+    {
+      skill: 'Docker',
       level: LEVELS.Intermediate,
+      description: 'docker, dockerhub'
+    }
+
+  ],
+  FrontEnd: [
+    {
+      skill: 'JavaScript',
+      level: LEVELS.UpperIntermediate,
       description: 'ES6'
     },
-    'Typescript': {
+    {
+      skill: 'Typescript',
       level: LEVELS.UpperIntermediate,
       description: 'TS'
     },
-    'Angular': {
+    {
+      skill: 'Angular',
       level: LEVELS.UpperIntermediate,
       description: 'Angular, SPA, routes, firebase, material design'
     },
-    'HTML5/CSS3': {
+    {
+      skill: 'HTML5/CSS3',
       level: LEVELS.UpperIntermediate,
       description: 'HTML5/CSS3'
     },
-    'JQuery': {
+    {
+      skill: 'JQuery',
       level: LEVELS.Intermediate,
-      description: 'Jquery framework'
-    },
-    'Bootstrap': {
+      description: 'Jquery framework',
+    }
+    ,
+    {
+      skill: 'Bootstrap',
       level: LEVELS.UpperIntermediate,
       description: 'Bootstrap 4, flexbox, responsive-design'
-    },
-  },
-  Databases: {
-    MySql: {
+    }
+  ],
+  Databases: [
+    {
+      skill: 'MySql',
       level: LEVELS.Intermediate,
       description: 'db, schema, tables'
     },
-    Mongodb: {
+    {
+      skill: 'Mongodb',
       level: LEVELS.Intermediate,
       description: 'db, schema, nosql'
     },
-    Neo4j: {
+    {
+      skill: 'Neo4j',
       level: LEVELS.Intermediate,
       description: 'graph db, schema, cypher queries'
-    }
-  },
-  Other: {
-    Git: {
-      level: LEVELS.UpperIntermediate,
-      description: 'git, github, bitbucket, gitlab'
-    }
-  }
+    }],
 };
+

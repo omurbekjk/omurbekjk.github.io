@@ -1,5 +1,7 @@
 #portfolio {
-  border: 2px solid sandybrown;
+  border-top: 2px solid sandybrown;
+  border-bottom: 2px solid sandybrown;
+  background-color: whitesmoke;
   margin: auto;
   padding: 3rem;
 }
