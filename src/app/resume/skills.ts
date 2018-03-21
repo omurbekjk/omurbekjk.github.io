@@ -9,12 +9,14 @@ export const skills = {
     {
       skill: 'Java',
       level: LEVELS.UpperIntermediate,
-      description: 'OOP, Sockets, Jsoup, Swing, Apache POI'
+      description: 'OOP, Sockets, Jsoup, Swing, Apache POI',
+      icon: 'devicon-java-plain-wordmark colored'
     },
     {
-      skill: 'Golang',
+      skill: 'Go',
       level: LEVELS.Beginner,
-      description: 'Golang basics, unit testing'
+      description: 'Golang basics, unit testing',
+      icon: 'devicon-go-plain colored'
     },
     {
       skill: 'test',
@@ -24,17 +26,20 @@ export const skills = {
     {
       skill: 'Node',
       level: LEVELS.UpperIntermediate,
-      description: 'Nodejs, Expres, Mongoose'
+      description: 'Nodejs, Expres, Mongoose',
+      icon: 'devicon-nodejs-plain colored'
     },
     {
       skill: 'Git',
       level: LEVELS.UpperIntermediate,
-      description: 'git, github, bitbucket, gitlab'
+      description: 'git, github, bitbucket, gitlab',
+      icon: 'devicon-git-plain colored'
     },
     {
       skill: 'Docker',
       level: LEVELS.Intermediate,
-      description: 'docker, dockerhub'
+      description: 'docker, dockerhub',
+      icon: 'devicon-docker-plain-wordmark colored'
     }
 
   ],
@@ -42,45 +47,53 @@ export const skills = {
     {
       skill: 'JavaScript',
       level: LEVELS.UpperIntermediate,
-      description: 'ES6'
+      description: 'ES6',
+      icon: 'devicon-javascript-plain colored'
     },
     {
       skill: 'Typescript',
       level: LEVELS.UpperIntermediate,
-      description: 'TS'
+      description: 'TS',
+      icon: 'devicon-typescript-plain colored'
     },
     {
       skill: 'Angular',
       level: LEVELS.UpperIntermediate,
-      description: 'Angular, SPA, routes, firebase, material design'
+      description: 'Angular, SPA, routes, firebase, material design',
+      icon: 'devicon-angularjs-plain colored'
     },
     {
       skill: 'HTML5/CSS3',
       level: LEVELS.UpperIntermediate,
-      description: 'HTML5/CSS3'
+      description: 'HTML5/CSS3',
+      icon: 'devicon-css3-plain-wordmark colored'
     },
     {
       skill: 'JQuery',
       level: LEVELS.Intermediate,
       description: 'Jquery framework',
+      icon: 'devicon-jquery-plain-wordmark colored'
     }
     ,
     {
       skill: 'Bootstrap',
       level: LEVELS.UpperIntermediate,
-      description: 'Bootstrap 4, flexbox, responsive-design'
+      description: 'Bootstrap 4, flexbox, responsive-design',
+      icon: 'devicon-bootstrap-plain-wordmark colored'
     }
   ],
   Databases: [
     {
       skill: 'MySql',
       level: LEVELS.Intermediate,
-      description: 'db, schema, tables'
+      description: 'db, schema, tables',
+      icon: 'devicon-mysql-plain-wordmark colored'
     },
     {
       skill: 'Mongodb',
       level: LEVELS.Intermediate,
-      description: 'db, schema, nosql'
+      description: 'db, schema, nosql',
+      icon: 'devicon-mongodb-plain-wordmark colored'
     },
     {
       skill: 'Neo4j',
