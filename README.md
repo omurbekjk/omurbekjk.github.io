@@ -1,6 +1,12 @@
-# Omurbekjk
+##### Travis CI/CD status
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+[![Build Status](https://travis-ci.com/omurbekjk/omurbekjk.github.io.svg?branch=master)](https://travis-ci.com/omurbekjk/omurbekjk.github.io)
+
+# Portfolio website [omurbek-jk]
+
+This project is my own portfolio website. I used awesome [Angular](https://angular.io) framework and 
+used firebase for storing data and hosting.
+
 
 ## Development server
 
