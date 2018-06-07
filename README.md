@@ -5,7 +5,7 @@
 # Portfolio website [omurbek-jk]
 
 This project is my own portfolio website. I used awesome [Angular](https://angular.io) framework and 
-used firebase for storing data and hosting.
+Firebase for storing data and hosting.
 
 
 ## Development server
