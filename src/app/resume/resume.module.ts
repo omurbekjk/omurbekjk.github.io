@@ -8,11 +8,13 @@ import {AboutComponent} from './about/about.component';
 import {ResumeComponent} from './resume.component';
 import {WhoiamComponent} from './whoiam/whoiam.component';
 import {AwardsComponent} from './awards/awards.component';
+import {GalleryModule} from '@ngx-gallery/core';
 
 @NgModule({
   imports: [
     CommonModule,
-    ResumeRoutingModule
+    ResumeRoutingModule,
+    GalleryModule.forRoot(),
   ],
   declarations: [
     WhoiamComponent,
