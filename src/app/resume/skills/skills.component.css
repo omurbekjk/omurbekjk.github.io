@@ -1,0 +1,65 @@
+.skills {
+  background-color: whitesmoke;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid sandybrown;
+}
+
+.skills > h3 {
+  color: darkgoldenrod;
+  font-weight: bolder;
+  padding: 0.5rem;
+}
+
+.col-sm {
+  padding-top: 1.5rem;
+}
+
+.progress {
+  height: 2rem;
+  margin-top: 1rem;
+  font-family: Lato-Regular, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.Advanced {
+  width: 75%;
+}
+
+.Upper-Intermediate {
+  width: 60%;
+}
+
+.Intermediate {
+  width: 40%;
+}
+
+.Beginner {
+  width: 30%;
+}
+
+.orange {
+  background-color: #EF6C00;
+}
+
+.brown {
+  background-color: #795548;
+}
+
+.violet {
+  background-color: mediumvioletred;
+}
+
+.blue {
+  background-color: cadetblue;
+}
+.grey{
+  background-color: grey;
+}
+.black{
+  background-color: black;
+}
+.gold{
+  background-color: sandybrown;
+}
