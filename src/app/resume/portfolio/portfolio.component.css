@@ -1,0 +1,30 @@
+#portfolio {
+  border-top: 2px solid sandybrown;
+  border-bottom: 2px solid sandybrown;
+  background-color: whitesmoke;
+  margin: auto;
+  padding: 3rem;
+}
+
+.header {
+  line-height: 1.4;
+  color: #252a30;
+  font-family: 'Montserrat';
+  margin-bottom: 1rem;
+}
+
+.about {
+  text-align: center;
+  color: #524e4d;
+  margin-bottom: 1.5rem;
+}
+
+img {
+  border-radius: 6px;
+  width: 70%;
+}
+
+.row > div > p {
+  margin-top: 1rem;
+}
+
