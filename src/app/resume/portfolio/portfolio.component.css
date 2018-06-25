@@ -4,11 +4,19 @@
   background-color: whitesmoke;
   margin: auto;
   padding: 3rem;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.42857143;
+  color: #2c3e50;
 }
 
 .header {
   line-height: 1.4;
-  color: #252a30;
+  color: sandybrown;
   font-family: 'Montserrat';
   margin-bottom: 1rem;
 }
@@ -21,7 +29,8 @@
 
 img {
   border-radius: 6px;
-  width: 70%;
+  width: 200px;
+  height: 180px;
 }
 
 .row > div > p {
