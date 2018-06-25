@@ -1,6 +1,7 @@
 const LEVELS = {
   Advanced: {title: 'Advanced', percentage: '95'},
   UpperIntermediate: {title: 'Upper-Intermediate', percentage: '85'},
+  UpperLowerIntermediate: {title: 'UpperIntermediate', percentage: '70'},
   Intermediate: {title: 'Intermediate', percentage: '60'},
   Beginner: {title: 'Beginner', percentage: '30'},
 };
@@ -73,8 +74,7 @@ export const skills = {
       level: LEVELS.Intermediate,
       description: 'Jquery framework',
       icon: 'devicon-jquery-plain-wordmark colored'
-    }
-    ,
+    },
     {
       skill: 'Bootstrap',
       level: LEVELS.UpperIntermediate,
@@ -91,8 +91,14 @@ export const skills = {
     },
     {
       skill: 'Mongodb',
-      level: LEVELS.Intermediate,
+      level: LEVELS.UpperLowerIntermediate,
       description: 'db, schema, nosql',
+      icon: 'devicon-mongodb-plain-wordmark colored'
+    },
+    {
+      skill: 'Dgraph',
+      level: LEVELS.Intermediate,
+      description: 'graph db, schema, graphql+- queries',
       icon: 'devicon-mongodb-plain-wordmark colored'
     },
     {

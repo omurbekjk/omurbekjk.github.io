@@ -1,0 +1,45 @@
+.about-me {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+p, ul {
+  font-size: 20px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.42857143;
+  color: #2c3e50;
+}
+
+hr {
+  margin: 15px auto 25px;
+  padding: 0;
+  max-width: 250px;
+  border: 0;
+  border-top: solid 4px;
+}
+
+hr.star-light,
+hr.star-primary {
+  overflow: visible; /* For IE */
+  text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+  content: '<>';
+  display: inline-block;
+  position: relative;
+  top: -.8em;
+  padding: 0 .25em;
+  font-family: FontAwesome;
+  font-size: 1.5em;
+}
+
+hr.star-primary {
+  border-color: #2c3e50;
+}
+
+hr.star-primary:after {
+  color: #2c3e50;
+  background-color: #fff;
+}

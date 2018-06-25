@@ -6,27 +6,32 @@
   height: 50%;
   max-height: inherit;
 }
-#whoiam .row
-{
+
+#whoiam .row {
   margin: 2em;
 }
-#myImage{
+
+#myImage {
   max-height: 400px;
   margin: auto;
   padding: auto;
 }
-#handle{
+
+#handle {
   color: indigo;
   font-weight: bold;
 }
-#username{
+
+#username {
   color: #00897B;
   font-weight: bold;
 }
-#position{
-  color: #acaeaf;
+
+#whoiam {
+  border-bottom: 3px solid #00897B;
 }
 
-.milkColored{
-  color: #acaeaf;
+p {
+  font-size: 20px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
