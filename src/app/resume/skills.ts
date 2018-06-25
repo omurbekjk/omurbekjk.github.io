@@ -1,7 +1,7 @@
 const LEVELS = {
   Advanced: {title: 'Advanced', percentage: '95'},
   UpperIntermediate: {title: 'Upper-Intermediate', percentage: '85'},
-  UpperLowerIntermediate: {title: 'Intermediate', percentage: '70'},
+  UpperLowerIntermediate: {title: 'UpperIntermediate', percentage: '70'},
   Intermediate: {title: 'Intermediate', percentage: '60'},
   Beginner: {title: 'Beginner', percentage: '30'},
 };
