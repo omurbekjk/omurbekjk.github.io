@@ -8,16 +8,12 @@ import {Component, OnInit} from '@angular/core';
 export class AwardsComponent implements OnInit {
   imageData = [
     {
-      srcUrl: 'https://pixabay.com/get/e834b0072cf2063ecd0b4003e64d4094fe76e7d718b7134393f4c7_960.jpg',
-      previewUrl: 'https://pixabay.com/get/e834b0072cf2063ecd0b4003e64d4094fe76e7d718b7134393f4c7_960.jpg'
+      srcUrl: '/assets/images/saktan.jpeg',
+      previewUrl: '/assets/images/saktan.jpeg'
     },
     {
-      srcUrl: 'https://pixabay.com/get/eb34b0062cf0063ecd0b4003e64d4094fe76e7d718b7134393f4c7_960.jpg',
-      previewUrl: 'https://pixabay.com/get/eb34b0062cf0063ecd0b4003e64d4094fe76e7d718b7134393f4c7_960.jpg'
-    },
-    {
-      srcUrl: 'https://pixabay.com/get/ec32b60e28f01c3e815f4305e74a448be272e0d41fb3134791f6_960.jpg',
-      previewUrl: 'https://pixabay.com/get/ec32b60e28f01c3e815f4305e74a448be272e0d41fb3134791f6_960.jpg'
+      srcUrl: '/assets/images/front-end-certificate.jpg',
+      previewUrl: '/assets/images/front-end-certificate.jpg'
     },
   ];
 
