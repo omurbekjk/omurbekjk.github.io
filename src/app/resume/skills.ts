@@ -20,9 +20,10 @@ export const skills = {
       icon: 'devicon-go-plain colored'
     },
     {
-      skill: 'test',
-      level: LEVELS.Advanced,
-      description: 'Golang basics, unit testing'
+      skill: 'Ionic3',
+      level: LEVELS.UpperIntermediate,
+      description: 'Ionic3 hybrid app, barcode reader, angularfire2',
+      icon: 'devicon-android-plain colored'
     },
     {
       skill: 'Node',
