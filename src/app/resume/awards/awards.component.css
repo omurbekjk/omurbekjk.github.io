@@ -1,8 +1,36 @@
 .awards{
   background-color: whitesmoke;
-  border-bottom: 2px solid saddlebrown;
-  min-height: 250px;
+  border-top: 2px solid #00897B;
+  min-height: 200px;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 gallery {
   height: 500px;
+}
+.awards-carousel{
+  width: 80%;
+  margin: auto;
+}
+
+.carousel-item{
+  height: 100%;
+}
+.carousel-caption{
+  color: #00897B;
+}
+img{
+  width: 80%;
+}
+h3 {
+  color: #00897B;
+  font-weight: bolder;
+  padding: 1rem;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
