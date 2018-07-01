@@ -31,7 +31,10 @@
   border-bottom: 3px solid #00897B;
 }
 
-p {
-  font-size: 20px;
+p, button, a {
+  font-size: 1.5rem;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a:first-child{
+ margin-right: 0.5rem;
 }
